@@ -2,8 +2,12 @@
 #nuevaExcusa {
   border-color: #aaa #000 #000 #aaa;
 }
+#nuevaExcusa:hover {
+  cursor: grab;
+}
 #nuevaExcusa:active {
   border-color: #000 #aaa #aaa #000;
+  cursor: grabbing;
 }
 #nuevaExcusa {
   background-color: cyan;
