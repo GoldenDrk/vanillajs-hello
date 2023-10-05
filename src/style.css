@@ -1,4 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(89, 89, 89, 1) 41%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 95vh;
+}
 #nuevaExcusa {
   border-color: #aaa #000 #000 #aaa;
 }
